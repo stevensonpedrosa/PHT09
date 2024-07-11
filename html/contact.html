@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header id="banner">
+        <h1>
+            Contact Us
+        </h1>
+    </header>
+    <hr>
+    <section id="inquiries">
+        <h2>Got Issues or Suggestions?</h2>
+        <h3>Send them here!</h3>
+        <form action="submit_inquiry.js" method="get" id="frm_inquiry">
+            <textarea name="txt_inquiry_msg" id="txt_inquiry_msg" placeholder="Write your message here..." rows="5" cols="40"></textarea>
+            <br>
+            <label for="firstname">
+                First Name: 
+            </label>
+            <input type="text" name="firstname" id="firstname" required>
+            <br>
+            <label for="lastname">
+                Last Name: 
+            </label>
+            <input type="text" name="lastname" id="lastname" required>
+            <br>
+            <label for="email">
+                Email: 
+            </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+    <hr>
+    <footer id="contact_details">
+        <span>Stevenson Pedrosa</span><br>
+        <span>pedrosa.stevenson@gmail.com</span><br>
+        <span>09261453754</span><br>
+    </footer>
+</body>
+</html>
